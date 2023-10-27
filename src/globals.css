@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', cursive;
+}
+
+body{
+    background-color: #fbe9e7;
+}
+
+html[data-scroll-orientation="horizontal"] {
+    body {
+        width: fit-content;
+    }
+    [data-scroll-container] {
+        display: flex;
+    }
+}

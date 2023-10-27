@@ -5,10 +5,10 @@ import Typography from "@mui/material/Typography";
 import { useDispatch } from "react-redux";
 import { ThunkDispatch } from "@reduxjs/toolkit";
 import { updateTaskList } from "../redux/slice/StoreTaskList";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 
 const NewTask = () => {
-    const { id } = useParams();
+    const id = "abc123XYZ456";
     const [open, setOpen] = useState(false);
     const handleOpen = () => {
         setOpen(true);

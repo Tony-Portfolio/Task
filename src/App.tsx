@@ -37,7 +37,7 @@ const AppContent = () => {
             <div className="flex">
                 {/* <Navigation /> */}
                 <Routes>
-                    <Route path="/p/:id" element={
+                    <Route path="/" element={
                         <DndProvider options={HTML5toTouch}>
                             <Todo />
                         </DndProvider>

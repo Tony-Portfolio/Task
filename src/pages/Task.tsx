@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { ThunkDispatch } from "@reduxjs/toolkit";
 import { fetchTaskList, updateTaskList } from "../redux/slice/StoreTaskList";
 import Item from "../components/Item";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import NewTask from "../components/NewTask";
 
 interface TaskList {
@@ -16,7 +16,7 @@ interface TaskList {
 }
 
 const Task = () => {
-    const { id } = useParams();
+    const id = "abc123XYZ456";
 
     const dispatch = useDispatch<ThunkDispatch<any, any, any>>();
 

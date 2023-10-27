@@ -1,6 +1,6 @@
 import React from "react";
 import { useDrag } from "react-dnd";
-import "./item.css";
+import "./Item.css";
 import { formatDate } from "../composables/getTime";
 
 const Item = ({ data }: { data: any }) => {
